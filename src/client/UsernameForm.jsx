@@ -10,7 +10,7 @@ export function UsernameForm({ onUsername }) {
       }}
     >
         <h1>Welcome to exam chat</h1>
-      <h2>Pleas, enter your username</h2>
+      <h2>Please, enter your username</h2>
 
         <div>
             <label>Username</label>
