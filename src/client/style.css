@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+header {
+    background: blue;
+}
+
+main {
+    background: lightgray;
+}
+
+footer {
+    background: blue;
+}
+
+footer form {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+footer form > input {
+    flex: 1;
+}
+
+#app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
